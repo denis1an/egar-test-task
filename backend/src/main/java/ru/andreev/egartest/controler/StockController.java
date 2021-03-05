@@ -36,4 +36,9 @@ public class StockController {
     public ResponseEntity<?> delete(@PathVariable final Long id){
         return stockService.delete(id);
     }
+
+    @GetMapping("/graph")
+    public ResponseEntity<?> graphInfo(){
+        return stockService.getGraphInfo();
+    }
 }

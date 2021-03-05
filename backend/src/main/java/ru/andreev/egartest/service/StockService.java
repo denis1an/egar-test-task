@@ -14,4 +14,5 @@ public interface StockService {
 
     ResponseEntity<?> delete(Long id);
 
+    ResponseEntity<?> getGraphInfo();
 }
