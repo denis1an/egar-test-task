@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  margin-top: 12px;
+  overflow-x: auto;
+
+
+  .table {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .selectTableCell{
+    width: 80px;
+  }
+
+  .tableCell {
+    width: 130px;
+    height: 10px;
+  }
+
+  .input {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+
+
